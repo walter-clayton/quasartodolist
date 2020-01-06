@@ -1,26 +1,41 @@
-# Quasar Sandbox (quasarsandbox)
+# TODO LIST
 
-Quasar Sandbox
+I built this page to practice my frontend skills with Quasar and Vue.js.
 
-## Install the dependencies
-```bash
-npm install
-```
+This is a page that allows users to add tasks to a todo list. 
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+Users can delete their tasks.  
 
-### Lint the files
-```bash
-npm run lint
-```
+Click here: [Demo](https://walter-clayton.github.io/quasartodolist/)
 
-### Build the app for production
-```bash
-quasar build
-```
+![capture](./src/assets/todolist.gif)
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+## Features
+
+* Add Tasks
+* Delete Tasks
+* Flash messages
+* User Interface with profile picture and tab bar
+
+## Built with
+
+* HTML5
+* SCSS
+* QUASAR
+* VUE.js
+
+## Instructions for contributors
+
+if you would like to contribute on GitHub :smiley:
+* QUASAR [instructions](quasar.md)
+* GitHub [instructions](contributions.md)
+
+## Author
+
+**Walter Clayton** 
+* :octocat: [GitHub Profile](https://github.com/walter-clayton)
+* :bowtie: [LinkedIn](https://www.linkedin.com/in/walter-clayton-2b50b4191/)
+
+## Copyright
+
+<p>&copy; 2019 Walter Clayton, All Rights Reserved<p>
