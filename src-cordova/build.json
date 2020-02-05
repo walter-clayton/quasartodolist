@@ -1,0 +1,7 @@
+"ios": {
+    "release": {
+      "buildFlag": [
+        "-UseModernBuildSystem=0"
+      ]
+    }
+  }
