@@ -11,7 +11,11 @@
           aria-label="Menu"
         />
           <div class=" q-py-xl q-sb-md q-mx-auto">
-              <div class="text-h3">Todo</div>
+              <div class="text-h3">Todo List App for 
+                <span v-if="$q.platform.is.ios">IOS</span>
+                <span v-else-if="$q.platform.is.mac">Mac</span>
+                <span v-else>Web</span>
+              </div>
           <div class="text-subtitle q-py-sm q-mr-none">{{todaysDate}}</div>
           </div>
       </q-toolbar>
@@ -84,6 +88,15 @@ export default {
     todaysDate () {
       let timeStamp = Date.now()
       return date.formatDate(timeStamp, 'dddd M MMMM YYYY')
+    }
+  },
+  created() {
+    if (this.$q.platform.is.cordova) {
+      alert('This is a Cordova app!')
+    } 
+
+    else {
+      alert("This is a Desktop App")
     }
   }
 }
